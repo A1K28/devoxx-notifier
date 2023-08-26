@@ -50,9 +50,9 @@ public class Main {
                     Thread.sleep(5*60*1000);
                     wasSuccess = false;
                 } else {
-                    Logger.info("Sleeping for 10 seconds");
-                    // 10 seconds
-                    Thread.sleep(10*1000);
+                    Logger.info("Sleeping for 5 seconds");
+                    // 5 seconds
+                    Thread.sleep(5*1000);
                 }
             } catch (InterruptedException e) {
                 Logger.error("Thread could not sleep", e);
